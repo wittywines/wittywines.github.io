@@ -8,12 +8,11 @@ collections:
   uploads:
     title: Uploads
     output: true
-gems:
-  - octopress-minify-html
-  - jekyll-admin
 defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "default"
+- scope:
+    path: ''
+  values:
+    layout: default
+gems:
+- octopress-minify-html
+- jekyll-admin
